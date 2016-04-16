@@ -1,0 +1,3 @@
+ - forgot docs and tests bin
+ - didn't init in tests
+ - init in templates instead of tests by idiocy

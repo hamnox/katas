@@ -1,0 +1,16 @@
+body {
+    background-color: lightpurple;
+    width: 60%
+}
+
+.click_to_toggle {
+    float: right;
+}
+
+menu {
+    float:right;
+}
+
+a {
+    display:block;
+}

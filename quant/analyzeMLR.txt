@@ -1,0 +1,14 @@
+Multiple linear regression results:
+
+do a PCA to two vars and plot those points vs. the regression plot?
+check the MSE
+
+
+
+
+
+
+errs:
+how to do in a graphlab?
+no datasets for exampling
+p-values what?

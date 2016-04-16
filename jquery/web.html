@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- err: doctype tag wrong -->
+
+<html>
+    <head>
+            <!-- err: tried to stylesheet/css -->
+        <link rel="stylesheet" href="style.css">
+            <!-- type tag not necessary HTML 5-->
+            <!-- err: javascript instead of text/javascript -->
+        <!-- err: forgot to import jquery --> 
+        <!-- err: imported jquery after script using it, uggh duh -->
+        <script src="jquery-2.1.4.min.js"></script>
+
+        <script type="text/javascript">
+
+
+        var main = function() {
+            $("menu").toggle();
+            $(".click_to_toggle").click(function() {
+                $("menu").toggle();
+                // err: selected wrong, forgot what toggle actually does
+            }); // err: dropped a )
+        }; // err: dropped a ;
+            
+
+        $(document).ready(main);
+        </script>
+
+    </head>
+    <body>
+        <h1>My Page</h1>
+        <p class="click_to_toggle"> Menu </p>
+        <p>This is a block of text, isn't it grand?</p>
+        <menu>
+            <a>Nowhere</a>
+            <a>Everywhere</a>
+        </menu>
+
+    </body>
+</html>
